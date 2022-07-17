@@ -1,0 +1,20 @@
+{
+    "name": "xjryanse/view",
+    "description": "数据库中创建的视图，基于TP框架",
+    "type": "library",
+    "authors": [
+        {
+            "name": "xjryanse",
+            "email": "xjryanse@sina.com"
+        }
+    ],
+    "require": {
+        "xjryanse/traits": "0.0.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+          "xjryanse\\view\\": "src/"
+        }
+    }
+}
